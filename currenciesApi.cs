@@ -9,7 +9,7 @@ namespace Currecny_Api
 
         public static void UpdateAllRatesFromCHF()
         {
-            var client = new RestClient($"https://v6.exchangerate-api.com/v6/api_key/latest/CHF");
+            var client = new RestClient($"https://v6.exchangerate-api.com/v6/6433530a8bb791132a3f20f3/latest/CHF");
             var request = new RestRequest(Method.GET);
 
             IRestResponse response = client.Execute(request);
