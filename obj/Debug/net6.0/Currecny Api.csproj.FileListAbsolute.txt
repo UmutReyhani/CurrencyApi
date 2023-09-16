@@ -1,0 +1,36 @@
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\appsettings.json
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Currecny Api.exe
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Currecny Api.deps.json
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Currecny Api.runtimeconfig.json
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Currecny Api.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Currecny Api.pdb
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\RestSharp.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets\msbuild.Currecny Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets\msbuild.build.Currecny Api.props
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Currecny Api.props
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Currecny Api.props
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\scopedcss\bundle\Currecny Api.styles.css
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.csproj.CopyComplete
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.dll
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\refint\Currecny Api.dll
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.pdb
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\Currecny Api.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\Currecny Api\obj\Debug\net6.0\ref\Currecny Api.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ASUS\source\repos\Currecny Api\bin\Debug\net6.0\System.IO.Packaging.dll
