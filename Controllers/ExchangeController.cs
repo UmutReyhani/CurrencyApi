@@ -67,7 +67,7 @@ namespace CurrencyApi.Controllers
                 double baseRateInCHF = currenciesApi.getRate(req.baseCurrency);
                 double targetRateInCHF = currenciesApi.getRate(req.targetCurrency);
 
-                if (baseRateInCHF == 0 || targetRateInCHF == 0)
+                if (baseRateInCHF == 0 | targetRateInCHF == 0)
                 {
                     response.type = "Error";
                     response.message = "Could not retrieve exchange rates.";
