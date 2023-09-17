@@ -28,46 +28,46 @@ namespace CurrencyApi.Controllers
             public string message { get; set; }
         }
 
-        [HttpPost]
+        [HttpPost, Route("[action]")]
         public ActionResult<ExchangeResponse> Post([FromBody] ExchangeRequest req)
         {
             var response = new ExchangeResponse();
 
-            string storedCaptcha = HttpContext.Session.GetString("CaptchaAnswer");
-            if (storedCaptcha == null || !storedCaptcha.Equals(req.captcha.ToString()))
-            {
-                response.type = "Error";
-                response.message = "Invalid CAPTCHA.";
-                return BadRequest(response);
-            }
-
-            if (string.IsNullOrEmpty(req.baseCurrency) || string.IsNullOrEmpty(req.targetCurrency))
-            {
-                response.type = "Error";
-                response.message = "Base currency and target currency should not be empty.";
-                return BadRequest(response);
-            }
-
-            if (req.baseCurrency == req.targetCurrency)
-            {
-                response.type = "Error";
-                response.message = "Base currency and target currency should not be the same.";
-                return BadRequest(response);
-            }
-
-            if (req.amount <= 0)
-            {
-                response.type = "Error";
-                response.message = "Amount should be greater than zero.";
-                return BadRequest(response);
-            }
-
             try
             {
+                string storedCaptcha = HttpContext.Session.GetString("CaptchaAnswer");
+                if (storedCaptcha == null || !storedCaptcha.Equals(req.captcha.ToString()))
+                {
+                    response.type = "Error";
+                    response.message = "Invalid CAPTCHA.";
+                    return BadRequest(response);
+                }
+
+                if (string.IsNullOrEmpty(req.baseCurrency) || string.IsNullOrEmpty(req.targetCurrency))
+                {
+                    response.type = "Error";
+                    response.message = "Base currency and target currency should not be empty.";
+                    return BadRequest(response);
+                }
+
+                if (req.baseCurrency == req.targetCurrency)
+                {
+                    response.type = "Error";
+                    response.message = "Base currency and target currency should not be the same.";
+                    return BadRequest(response);
+                }
+
+                if (req.amount <= 0)
+                {
+                    response.type = "Error";
+                    response.message = "Amount should be greater than zero.";
+                    return BadRequest(response);
+                }
+
                 double baseRateInCHF = currenciesApi.getRate(req.baseCurrency);
                 double targetRateInCHF = currenciesApi.getRate(req.targetCurrency);
 
-                if (baseRateInCHF == 0 | targetRateInCHF == 0)
+                if (baseRateInCHF == 0 || targetRateInCHF == 0)
                 {
                     response.type = "Error";
                     response.message = "Could not retrieve exchange rates.";
@@ -83,8 +83,8 @@ namespace CurrencyApi.Controllers
             catch (Exception e)
             {
                 response.type = "Error";
-                response.message = e.Message;
-                return StatusCode(500, response);
+                response.message = "FORBIDDEN";
+                return StatusCode(403, response);
             }
         }
     }
